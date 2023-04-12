@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">homeWork_three_one</string>
+    <string name="hint">Укажите имя:</string>
+    <string name="button">Button</string>
+    <string name="send">Отправить</string>
+    <string name="delivery">ДОСТВАКА</string>
+    <string name="food">Еды</string>
+    <string name="adres">Адрес доставки💒</string>
+    <string name="application">мы получили вашу заявку</string>
+    <string name="order">Дeтали заказа</string>
+    <string name="number">Номер телефона:  </string>
+    <string name="userName">Имя:  </string>
+    <string name="thisAdres">Адрес:  </string>
+</resources>
