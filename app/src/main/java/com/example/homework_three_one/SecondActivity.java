@@ -6,14 +6,9 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 public class SecondActivity extends AppCompatActivity {
-TextView SecondName,SecondAdres,SecondNumber;
+ TextView SecondName,SecondAdres,SecondNumber;
     String StringName,StringdAdres,StringNumber;
 
-    private void findViewsSecond(){
-        SecondName = findViewById(R.id.second_Name);
-        SecondAdres = findViewById(R.id.second_Adres);
-        SecondNumber = findViewById(R.id.MainNumber);
-    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,5 +20,11 @@ TextView SecondName,SecondAdres,SecondNumber;
         SecondName.setText(StringName);
         SecondAdres.setText(StringdAdres);
         SecondNumber.setText(StringNumber);
+    }
+
+    private void findViewsSecond(){
+        SecondName = findViewById(R.id.second_Name);
+        SecondAdres = findViewById(R.id.second_Adres);
+        SecondNumber = findViewById(R.id.second_Number);
     }
 }
